@@ -35,7 +35,7 @@ function Navbar() {
 
                         <Link to='/home' className='hover:text-fuchsia-700'>Home</Link>
                         <Link to='/categorias' className='hover:text-fuchsia-700'>Categorias</Link>
-                        <Link to='/cadastroTema' className='hover:text-fuchsia-700'>Cadastrar categoria</Link>
+                        <Link to='/cadastroCategoria' className='hover:text-fuchsia-700'>Cadastrar categoria</Link>
                         <div className='hover:text-fuchsia-700'>Produtos</div>
                         <User size={32} weight='bold' />
                         <ShoppingCart size={32} weight='bold' />

@@ -2,6 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./pages/home/Home"
 import Footer from "./components/footer/Footer"
 import Navbar from "./components/navbar/Navbar"
+import DeletarCategoria from "./components/categoria/deletarCategoria/DeletarCategoria"
+import FormularioCategoria from "./components/categoria/formularioCategoria/FormularioCategoria"
+import ListarCategorias from "./components/categoria/listaCategoria/ListarCategorias"
 
 function App() {
 
@@ -15,10 +18,10 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/home" element={<Home />} />
-                    {/* <Route path="/categorias" element={<ListarCategorias />} />
-                    <Route path="/cadastroTema" element={<FormularioCategoria />} />
+                    <Route path="/categorias" element={<ListarCategorias />} />
+                    <Route path="/cadastroCategoria" element={<FormularioCategoria />} />
                     <Route path="/editartema/:id" element={<FormularioCategoria />} />
-                    <Route path="/deletartema/:id" element={<DeletarCategoria />} /> */}
+                    <Route path="/deletartema/:id" element={<DeletarCategoria />} />
                 </Routes>
 
             </div>

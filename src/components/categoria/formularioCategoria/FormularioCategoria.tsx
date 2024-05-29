@@ -66,8 +66,6 @@ function FormularioCategoria() {
         retornar()
     }
 
-    console.log(JSON.stringify(categoria))
-
     return (
         <div className="container flex flex-col items-center justify-center mx-auto">
             <h1 className="text-4xl text-center my-8">
@@ -81,7 +79,7 @@ function FormularioCategoria() {
                     <input
                         type="text"
                         placeholder="Descreva aqui sua categoria"
-                        name='tipo'
+                        name='nome'
                         className="border-2 border-slate-700 rounded p-2"
                         required
                         value={categoria.nome}
