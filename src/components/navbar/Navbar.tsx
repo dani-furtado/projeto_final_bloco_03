@@ -10,7 +10,7 @@ function Navbar() {
 
                     <Link to='/home'>
                         <img
-                            src="https://static.vecteezy.com/system/resources/previews/006/077/800/original/plaster-icon-for-medicine-symbol-on-purple-background-free-vector.jpg"
+                            src="https://ik.imagekit.io/pgmcw5jyhq/VBPvBx0.png?updatedAt=1716988953059"
                             alt="Logo"
                             className='w-12'
                         />
